@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Quicksand:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fonte-titulo: "Playfair Display", serif;
+    --fonte-texto: "Quicksand", sans-serif;
+
+    --cor1: #9E8266;
+    --cor2: #7F5748;
+    --cor3: #A0C6F5;
+    --cor4: #F3E5BF;
+    --cor5: #A0C6F5;
+    --cor6: #ffffff;
+    --cor7: #4b3028;
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: var(--fonte-texto);
+}
+
+header{
+    background: linear-gradient(var(--cor4), var(--cor1), var(--cor7));
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1{
+    font-family: var(--fonte-titulo);
+    color: var(--cor6);
+    font-size: 55px;
+    text-shadow: 2px 2px 8px var(--cor7);
+}
+
+header p{
+    color: var(--cor6);
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+nav{
+    background-color: var(--cor7);
+    padding: 12px;
+    text-align: center;
+}
+
+nav a{
+    color: var(--cor6);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a:hover{
+    background-color: var(--cor3);
+    color: var(--cor7);
+}
+
+main{
+    max-width: 850px;
+    background-color: var(--cor6);
+    margin: auto;
+    padding: 25px;
+    box-shadow: 2px 2px 12px #000000;
+    border-radius: 0px 0px 12px 12px;
+}
+
+main h1{
+    font-family: var(--fonte-titulo);
+    color: var(--cor2);
+    font-size: 40px;
+}
+
+main h2{
+    font-family: var(--fonte-titulo);
+    color: var(--cor7);
+    background-color: var(--cor3);
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+main p{
+    font-size: 19px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 30px;
+    margin: 18px 0;
+}
+
+main strong{
+    color: var(--cor2);
+}
+
+main a{
+    text-decoration: none;
+    color: var(--cor7);
+    background-color: var(--cor5);
+    font-weight: bold;
+    padding: 3px 7px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor2);
+}
+
+.link::after{
+    content: "\1F517";
+}
+
+main img{
+    width: 100%;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.caixa-video{
+    background-color: var(--cor2);
+    padding: 15px;
+    margin: 20px -25px;
+}
+
+.caixa-video iframe{
+    width: 100%;
+}
+
+aside{
+    background-color: var(--cor4);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+aside h3{
+    background-color: var(--cor2);
+    color: var(--cor6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside ul{
+    list-style-type: "🎤 ";
+    list-style-position: inside;
+    columns: 2;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+footer{
+    background-color: var(--cor7);
+    color: var(--cor6);
+    text-align: center;
+    padding: 15px;
+}
